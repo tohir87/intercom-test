@@ -1,0 +1,24 @@
+{
+  "name": "intercom",
+  "version": "1.0.0",
+  "description": "Intercom Intern Test",
+  "main": "index.js",
+  "dependencies": {
+    "gps-distance": "*"
+  },
+  "scripts": {
+    "test-init" : "./node_modules/jasmine/bin/jasmine.js init",
+    "test": "./node_modules/jasmine/bin/jasmine.js"
+  },
+  "keywords": [
+    "data",
+    "gps",
+    "distance",
+    "metric"
+  ],
+  "author": "Thohiru Omoloye",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.9.0"
+  }
+}
